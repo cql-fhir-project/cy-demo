@@ -1,0 +1,31 @@
+{
+  "resourceType": "Bundle",
+  "id": "Not_Diabetic_Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "Not_Diabetic",
+        "gender": "female",
+        "birthDate": "1980-01-30",
+        "name": [
+          {
+            "use": "official",
+            "family": "DiabeticFootExam-1.0.0",
+            "given": [
+              "Not_Diabetic"
+            ],
+            "prefix": [
+              "Mr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient"
+      }
+    }
+  ]
+}
