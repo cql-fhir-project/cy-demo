@@ -1,0 +1,6 @@
+.idea
+node_modules
+vsac_cache
+.env
+.gradle
+measure-packages/*/*.json

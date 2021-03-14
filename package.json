@@ -1,0 +1,32 @@
+{
+  "name": "cql-exec-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^14.14.27",
+    "aws-sdk": "^2.843.0",
+    "cql-exec-fhir": "^1.5.0",
+    "cql-exec-vsac": "^1.2.0",
+    "cql-execution": "^2.1.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "gradlew cql2elm",
+    "execute": "node index.js",
+    "test": "node test.js",
+    "start": "npm run build && npm run execute"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cql-fhir-project/cql-exec-container.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cql-fhir-project/cql-exec-container/issues"
+  },
+  "homepage": "https://github.com/cql-fhir-project/cql-exec-container#readme"
+}
