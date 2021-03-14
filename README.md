@@ -14,9 +14,9 @@ This is not a production ready solution!
 1. `git clone https://github.com/cql-fhir-project/cy-demo`
 1. Open `cy-demo` in WebStorm
 1. Open WebStorm terminal
-1. $ save `.env-example` as `.env` file
+1. save `.env-example` as `.env` file
 1. Edit `.env`
-1. $ `npm run i`
-1. $ `npm run build`
-1. $ `npm run execute`
-1. $ `npm run start`
+1. `$ npm run i`
+1. `$ npm run build`
+1. `$ npm run execute`
+1. `$ npm run start`
