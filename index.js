@@ -11,8 +11,9 @@ const cqlvsac = require("cql-exec-vsac");
         }
 
         const MEASURE_PACKAGE = process.env.MEASURE_PACKAGE
+        const POPULATION = process.env.POPULATION
 
-        const bundlesPath = path.join(__dirname, 'bundles');
+        const bundlesPath = path.join(__dirname, POPULATION);
         const measurePath = path.join(__dirname, 'measure-packages', MEASURE_PACKAGE);
 
         const library = libraryBuilder(measurePath);
